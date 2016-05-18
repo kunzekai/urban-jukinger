@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app>
+
+<head>
+ 	<title>My HTML File</title>
+	
+	<!-- AnguarJS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+	<!-- Bootstrap CSS -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+
+<body>
+	<div>
+		<div class="alert alert-success">Just a alert bar test</div>
+		<label>Name:</label>
+		<input type="text" ng-model="yourName" placeHolder="Enter sth">
+		<hr>
+		<h1>Hello {{yourName}} !</h1>
+	</div>
+</body>
+</html>
